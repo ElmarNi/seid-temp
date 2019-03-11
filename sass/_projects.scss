@@ -1,0 +1,46 @@
+#projects{
+    .container-fluid{
+        .row{
+            .head-piece{
+                background: #ebb240;
+                .line{
+                    top: 100px;
+                }
+                .content{
+                    position: relative;
+                    z-index: 1;
+                    /*menu*/
+                    ul{
+                        li{
+                            position: relative;
+                            a{
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                color: white;
+                                font-size: 14px;
+                                transition: all .3s;
+                            }
+                            /*arrows*/
+                            i{
+                                position: absolute;
+                                left: -125px;
+                                top: 4px;
+                                opacity: 0;
+                                transition: all .3s;
+                            }
+                            &:hover{
+                                a{
+                                    color: black;
+                                }
+                                i{
+                                    left: -17px;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
