@@ -1,0 +1,39 @@
+#studio{
+        .head-piece{
+            background-color: #ff9b6d;
+            min-height: 320px;
+            h2{
+                position: absolute;
+                right: 5%;
+                bottom: 20%;
+            }
+        }
+        .right-piece{
+            .cs-text{
+                p{
+                    line-height: 18px;
+                }
+            }
+            .awards{
+                .content{
+                    p{
+                        position: relative;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            right: 0;
+                            left: 0;
+                            bottom: 0;
+                            height: 1px;
+                            background: gray;
+                        }
+                    }
+                    ul{
+                        padding: 0;
+                        margin: 0;
+                        display: flex;
+                    }
+                }
+            }
+        }
+}

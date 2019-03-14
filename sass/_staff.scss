@@ -1,0 +1,40 @@
+#staff{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .about{
+        p{
+            text-transform: unset;
+        }
+    }
+    .contact{
+        button{
+            border: none;
+            background: none;
+            padding: 0;
+            a,i{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #ff9b6d;
+            font-size: 20px;
+            }
+        }
+        .social-icons{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            a{
+                color: #ff9b6d;
+                text-decoration: none;
+                margin-right: 15px;
+                font-size: 17px
+            }
+        }
+    }
+}
